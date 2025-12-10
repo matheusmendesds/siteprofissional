@@ -3,9 +3,9 @@ import Divisor from "./divisor";
 
 export default function Portfolio() {
     return (
-        <section  id="portfolio">
+        <section id="portfolio">
             <Divisor texto={"Portfólio"}/>
-            <div className="flex m-auto">
+            <div className="flex justify-center">
                 <Card projeto={"Projeto 1"}/>
                 <Card projeto={"Projeto 2"}/>
                 <Card projeto={"Projeto 3"}/>
