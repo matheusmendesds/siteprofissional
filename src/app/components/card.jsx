@@ -1,9 +1,7 @@
 export default function Card({projeto}) {
     return (
-        <a class="group relative block h-64 sm:h-80 lg:h-96 text-black">
-            <span class="absolute inset-0 border-2 border-dashed border-black"></span>
-
-            <div class="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
+        <a class="h-64 sm:h-80 lg:h-96 text-black">
+            <div class="relative flex h-full transform items-end border-2 border-black bg-white transition-transform hover:-translate-x-2 hover:-translate-y-2">
                 <div class="p-4 pt-0! transition-opacity  sm:p-6 lg:p-8">
 
                 <h2 class="mt-4 text-xl font-medium sm:text-2xl">{projeto}</h2>

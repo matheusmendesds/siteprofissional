@@ -9,7 +9,7 @@ export default function Servicos() {
     <section className="bg-gray-800" id="servicos">
       <Divisor texto={"Serviços"} />
 
-      <div className="border-b border-gray-200 dark:border-gray-700">
+      <div className="border border-gray-200 dark:border-gray-700">
         <div role="tablist" className="-mb-px flex gap-4">
 
           <button
@@ -39,7 +39,7 @@ export default function Servicos() {
         </div>
       </div>
 
-      <div role="tabpanel" className="mt-4 text-gray-200">
+      <div role="tabpanel" className=" text-gray-200">
         {aba === "servico1" && <p>Texto do Servico 1</p>}
         {aba === "servico2" && <p>Texto do Servico 2</p>}
         {aba === "servico3" && <p>Texto do Servico 3</p>}
