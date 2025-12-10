@@ -5,7 +5,7 @@ export default function Portfolio() {
     return (
         <section  id="portfolio">
             <Divisor texto={"Portfólio"}/>
-            <div className="flex">
+            <div className="flex m-auto">
                 <Card projeto={"Projeto 1"}/>
                 <Card projeto={"Projeto 2"}/>
                 <Card projeto={"Projeto 3"}/>

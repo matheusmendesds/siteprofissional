@@ -1,11 +1,17 @@
 import Image from "next/image"
 import sobre from "@/app/images/sobre.jpg"
+import sobre1 from "@/app/images/nossa.png"
+
 import Divisor from "./divisor"
 export default function Sobre() {
     return (
         <section id="sobre">
             <Divisor texto={"Quem Somos"}/>
-                <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+            <div>
+                <Image src={sobre1} alt="alt"/>
+
+            </div>
+                {/* <div class=" mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
                     <div class="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
                         <div>
                             <Image src={sobre} alt='sobre' height={600}/>
@@ -24,7 +30,7 @@ export default function Sobre() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
         </section>
     )
 }
